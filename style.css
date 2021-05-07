@@ -1,0 +1,101 @@
+:root{
+    --background: #393e46;
+    --primary: #00adb5;
+    --secondary: #aad8d3;
+    --highligth:#eeeeee;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--primary);
+}
+.navbar-brand > img{
+ width: 150px;
+}
+.user_img{
+    width: 40px;
+    height: 40px;
+}
+.user_img:hover{
+    border-radius: 40px;
+    border: 2px solid var(--highligth);
+    cursor: pointer;
+}
+
+.overlay button > a{
+    color: var(--primary);
+}
+.overlay button > a:hover{
+    color: var(--highligth);
+    text-decoration: none;
+}
+#img-logo{
+    height: 25%;
+}
+.carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+  }
+ .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  #digitalizarte{
+   font-size: 1.3rem;
+  }
+  .card-img{
+    height: 50vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+  }
+  .modal-body{
+      color: var(--background);
+  }
+  #contacto{
+      margin-top: 56px;
+  }
+  #servicios{
+     margin-top: 56px;
+  }
+  #servicios ul {
+    display: flex;
+    justify-content: center; 
+}
+ 
+  #sobre-nosotros{
+      margin-top: 56px;
+      margin-bottom: 20px;
+  }
+  .card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+  .card-text{
+      color:var(--background);
+      font-size: .8rem;
+  }
+  .card-title{
+      color: var(--primary);
+  }
+.mvv{
+    margin-top: 20px;
+}
+ .card-header{
+     background-color: var(--secondary);
+ }
+ .card-body{
+     background-color: var(--highligth);
+     color: var(--background);
+ }
+ .contacto > label{
+     color: white;
+ }

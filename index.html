@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Artech</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hola! </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Nuestros servicios
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#web">Diseño Web</a>
+                <a class="dropdown-item" href="#digitalizacion">Digitalizacion</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#consultoria">Consultoria</a>
+              </div>
+            </li>
+            <img
+              src="./assets/user.png"
+              alt="Login"
+              class="user_img"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            />
+          </ul>
+        </div>
+      </nav>
+      <!-- /Navbar -->
+
+      <!-- Carousel -->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide mt-4"
+        data-ride="carousel"
+        data-pause="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.pexels.com/photos/39254/macbook-mac-apple-ipad-39254.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          <div class="overlay">
+            <div class="row ">
+              <div class="col-md-6 offset-md-6 text-center text-md-right ">
+                <img src="./assets/logo.png" alt="logo" id="img-logo"/>
+                <h3 id="digitalizarte">¿Y tu que esperas para digitalizarte?</h3>
+                <button type="button" class="btn btn-outline-info">
+                  <a href="#contacto">Contactanos</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Carousel -->
+
+      <!-- Sobre Nosotros -->
+      <section id="sobre-nosotros">
+        <div class="card bg-dark">
+          <img
+            src="https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            class="card-img"
+            alt="..."
+          />
+          <div class="card-img-overlay">
+            <h2 class="text-uppercase">&lt; Sobre Nosotros &sol; &gt;</h2>
+            <small class="card-text offset-6 text-justify">
+              Artech es una empresa dedicada al apoyo, implementación y
+              desarrollo de nuevas tecnologías para empresas que busquen dar el
+              siguiente paso a la digitalización. Estamos altamente capacitados
+              para poder brindar un servicio completo y de calidad a todos
+              aquellos clientes que lo necesiten y estén interesados en
+              conseguir nuevas tecnologías para ser usadas dentro de sus
+              empresas.
+            </small>
+          </div>
+        </div>
+
+        <!-- Mision, vision, valore -->
+        <div class="row mvv">
+          <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Nuestra Misión</h5>
+                <h6
+                  class="card-subtitle mb-2 text-muted blockquote-footer mb-4"
+                >
+                  <em>
+                    "Desarrollar tecnología de vanguardia altamente eficiente e
+                    intuitiva"
+                  </em>
+                </h6>
+                <p>
+                  <a
+                    class="btn btn-outline-info"
+                    data-toggle="collapse"
+                    href="#mision"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Quiero saber más
+                  </a>
+                </p>
+                <div class="collapse" id="mision">
+                  <div class="card card-body">
+                    <p class="card-text">
+                      El desarrollo de software es nuestra pasión y brindar un
+                      buen servicio y tener buena calidad son los pilares
+                      fundamentales en los que se basa nuestra empresa para que
+                      nuestros clientes salgan satisfechos con nuestros
+                      productos que les ofrecemos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Nuestra Visión</h5>
+                <h6
+                  class="card-subtitle mb-2 text-muted blockquote-footer mb-4"
+                >
+                  <em>
+                    “Tecnologías que se adapten a todo tipo de empresas"
+                  </em>
+                </h6>
+                <p>
+                  <a
+                    class="btn btn-outline-info"
+                    data-toggle="collapse"
+                    href="#vision"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Quiero saber más
+                  </a>
+                </p>
+                <div class="collapse" id="vision">
+                  <div class="card card-body">
+                    <p class="card-text">
+                      La visión que tiene ​Artech es que tanto micro, pequeñas,
+                      medianas y macro empresas cuenten con software que les
+                      ayude a mejorar sus servicios y estén a la vanguardia de
+                      este mundo digital en el que estamos, por ello que ​Artech
+                      ​tiene como propósito evolucionar de una empresa
+                      diseñadora de software web , a una empresa vanguardista en
+                      desarrollo de software web y en tecnologías de la
+                      información.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Nuestros valores</h5>
+                <h6
+                  class="card-subtitle mb-2 text-muted blockquote-footer mb-4"
+                >
+                  <em>
+                    “Compromiso, trabajo en equipo, usabilidad, calidad y
+                    servicio.”
+                  </em>
+                </h6>
+                <p>
+                  <a
+                    class="btn btn-outline-info"
+                    data-toggle="collapse"
+                    href="#valores"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Quiero saber más
+                  </a>
+                </p>
+                <div class="collapse" id="valores">
+                  <div class="card card-body">
+                    <p class="card-text">
+                      En nuestra empresa estamos comprometidos con nuestros
+                      clientes y nuestros productos, somos una empresa que busca
+                      siempre la innovación, mejora continua y satisfacción de
+                      nuestros clientes, a través de nuestros servicios. Así
+                      como también reconocemos el trabajo en equipo como uno de
+                      los pilares fundamentales para el cumplimiento de nuestros
+                      objetivos, buscando siempre la solución más óptima, de
+                      mayor calidad y una excelente experiencia de servicio.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Sobre Nosotros -->
+
+      <!-- Nuestros servicios -->
+      <section id="servicios">
+        <h2 class="text-uppercase">&lt; Conoce nuestros servicios&sol; &gt;</h2>
+        <div class="card text-center">
+          <div class="card-header bg-light text-dark">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="active btn btn-outline-info mr-2"
+                  id="web"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  >Diseño Web</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="btn btn-outline-info mr-2"
+                  id="digitalizacion"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  >Digitalización</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="btn btn-outline-info mr-2"
+                  id="consultoria"
+                  data-toggle="pill"
+                  href="#pills-contact"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                  >Consultoria</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                No pierdas mas clientes!
+                Creamos la pagina web de tu empresa
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                Contruimos soluciones digitales con las ultimas tecnologias para que 
+                tu empresa este en la competencia digital
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+              ¿Tienes dudas o necesitas asesoria?
+              Nosotros te ayudamos!
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Servicios -->
+
+      <!-- Contacto -->
+      <div class="row" id="contacto">
+        <div class="col pt-2">
+          <h2 class="text-uppercase">
+            &lt; Queremos escucharte! &sol; &gt;
+          </h2>
+          <form class="contacto">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Correo</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"
+                >¿En que podemos ayudarte?</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="8"
+                placeholder="Dejamos tus cometarios"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-info">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <!-- /Contacto -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="form-group form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Recordar mis datos</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                data-dismiss="modal"
+              >
+                Cancelar
+              </button>
+              <button type="button" class="btn btn-info">Sig In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Container -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
