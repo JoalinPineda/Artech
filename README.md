@@ -1,2 +1,2 @@
 # Artech
-A single page created whit Bootstrap
+A single page created with Bootstrap4
